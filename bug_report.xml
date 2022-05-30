@@ -1,1 +1,19 @@
-
+<?xml version="1.0"?>
+<bug_report>
+  <name>Отсутствует возможность удаления документа 'Загранпаспорт' в режиме редактирования</name>
+  <summary>Отсутствует кнопка 'Удалить'сохраненный ранее загранпаспорт. В разделе 'Свидетельство о рождении', 'Военный билет' такая кнопка есть</summary>
+  <environment>Браузер Google Chrome, версия 98.0.4758.102</environment>
+  <severity>Критическая</severity>
+  <priority>Средний<priority>
+  <precondition>
+                    <step_1>1. Открыть страницу https://www.... </step_1>
+                    <step_2>2.Произвести успешную авторизацию с логином 'test@mail.ru' и паролем 'Badmood9+'</step_2>     
+  </precondition>
+  <step_to_reproduce>
+                    <step_1>Выбрать раздел 'Документы'</step_1>
+                    <step_2>Перейти в раздел 'Загранпаспорт'</step_2> 
+  </step_to_reproduce> 
+ <expected_result>Наличие кнопки 'Удалить' рядом с кнопкой 'Редактировать'</expected_result>
+ <actual_result>Отсутствие кнопки 'Удалить' рядом с кнопкой'Редактировать'</actual_result>
+ <> "url..."
+<attachment></attachment>
